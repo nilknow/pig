@@ -1,4 +1,4 @@
-package reflection;
+package util.reflection;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -38,8 +38,5 @@ public class Reflection {
             Class[] classes = Arrays.copyOf(typeArguments, typeArguments.length, Class[].class);
             return classes;
         }
-    }
-    public static void main(String[] args){
-        System.out.println(getSuperClassGenericParamList(new Student())[0]);
     }
 }

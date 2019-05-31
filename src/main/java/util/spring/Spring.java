@@ -1,12 +1,10 @@
-package spring;
+package util.spring;
 
 import javafx.application.Application;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 /**
  * @author poorguy
